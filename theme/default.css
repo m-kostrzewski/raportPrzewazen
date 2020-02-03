@@ -1,0 +1,48 @@
+.trBox{
+    width:40%;
+    padding:8px;
+    margin:8px;
+}
+
+.leftBox{
+    width:80%;
+    padding:1px;
+    float:left;
+}
+.rightBox{
+    width:70%;
+    text-align: right;
+    padding:1px;
+}
+.box{
+    width:100%;
+}
+.box:hover{
+    background-color: #ffffff77;
+}
+
+
+.row{
+    display:block;
+}
+.row > .bars{
+    width:15%;
+}
+
+.row > .data{
+    float:right;
+    margin-right: 8px;
+}
+@media print{
+    body{
+        -webkit-print-color-adjust: exact !important;
+        background-color: white !important;
+    }
+    .formBox{
+        display: none !important;
+
+    }
+    .box{
+        width:100%;
+    }
+}

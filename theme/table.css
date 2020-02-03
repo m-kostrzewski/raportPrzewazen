@@ -1,0 +1,21 @@
+#tableWagi{
+    width:60%;
+}
+
+#tableWagi {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+
+}
+#tableWagi > tbody > tr{
+    text-align: center;
+}
+
+#tableWagi > tbody > tr:nth-child(even) {
+    font-size: 13px;
+    background-color: #e0e0e0;
+  }
+#tableWagi > tbody > tr:nth-child(odd) {
+    font-size: 13px;
+    background-color: #f0f0f0;
+  }
